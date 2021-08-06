@@ -13,7 +13,7 @@
 
 body {
     background-color: var(--preto);
-    font-family: Helvetica, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, 'Times New Roman', Times, serif;
     color: white;
 }
 
@@ -87,4 +87,35 @@ header nav a:hover {
 
 .button i {
     margin-right: 8px;
+}
+
+.container {
+    margin-left: 30px;
+}
+
+.main-race .container {
+    width: 70%;
+}
+
+.race-box {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.races-carousel {
+    margin-top: 5px;
+}
+
+.item {
+    cursor: pointer;
+}
+
+.race-name {
+    color: white;
+    margin-left: 10px;
+}
+
+.race-name:hover {
+    color: #FFF;
 }

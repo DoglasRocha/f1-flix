@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <script src="https://kit.fontawesome.com/00bcb3a799.js" crossorigin="anonymous"></script>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style/main.css">
-        <title>F1 Flix</title>
+        
+        <!--OWL CSS-->
+        <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+        
+        <!--RESPONSIVIDADE-->   
+        <link rel="stylesheet" href="style/responsive.css">
+
+        <title>F1Flix</title>
     </head>
     <body>
         <header>
             <div class="container">
-                <h2 class="logo">F1 Flix</h2>
+                <h2 class="logo">F1Flix</h2>
                 <nav>
                     <a href="#">Main</a>
                     <a href="#">Races</a>
@@ -29,11 +36,11 @@
                         Red flag. Dry track. Everybody in the pits except Hamilton. Who is gonna win this race?
                     </p>
                     <div class="buttons">
-                        <button role="button" class="button">
+                        <button role="button" class="button" onclick="location.href='https://www.formula1.com/en/latest/article.race-highlights-lap-1-crashes-a-red-flag-and-ocons-first-win-all-the-action.1JJnDUVrCdNPPzoyuBLKOF.html'">
                             <i class="fas fa-play"></i>
                             WATCH NOW
                         </button>
-                        <button role="button" class="button">
+                        <button role="button" class="button" onclick="location.href='https://www.formula1.com/en/racing/2021/Hungary.html'" target="_blank">
                             <i class="fas fa-info-circle"></i>
                             MORE INFORMATIONS
                         </button>
@@ -41,5 +48,61 @@
                 </div>
             </div>
         </main>
+
+        <div class="races-carousel">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="race-box" src="img/min1.jpg" alt="Bahrein GP Image" onclick="location.href='https://www.formula1.com/en/latest/article.highlights-watch-all-the-action-from-the-bahrain-gp-as-the-fight-for-victory.3iS0V6CML1IfjqcGt8tIOi.html'">
+                    <span class="race-name">Bahrein GP</span>
+                </div>
+                <div class="item">
+                    <img class="race-box" src="img/min2.jpg" alt="Emilia Romagna GP Image" onclick="location.href='https://www.formula1.com/en/latest/article.race-highlights-all-the-action-from-a-thrilling-wet-dry-emilia-romagna-grand.4JpZh8Q0QPgDfm0oKLL61G.html'">
+                    <span class="race-name">Emilia Romagna GP</span>
+                </div>
+                <div class="item">
+                    <img class="race-box" src="img/min3.jpeg" alt="Portuguese GP Image" onclick="location.href='https://www.formula1.com/en/latest/article.race-highlights-watch-all-the-key-moments-from-the-portuguese-gp-as-hamilton.6RyY1U08kWBOgnR38emtnH.html'">
+                    <span class="race-name">Portuguese GP</span>
+                </div>
+                <div class="item">
+                    <img class="race-box" src="img/min4.jpg" alt="Spanish GP Image" onclick="location.href='https://www.formula1.com/en/latest/article.highlights-watch-all-the-action-from-the-spanish-gp-as-hamilton-beats.5T0kcmVrvrFL4wflOXcaWa.html'">
+                    <span class="race-name">Spanish GP</span>
+                </div>
+                <div class="item">
+                    <img class="race-box" src="img/min5.jpg" alt="Monaco GP Image" onclick="location.href='https://www.formula1.com/en/latest/article.race-highlights-watch-all-the-key-moments-from-verstappens-monaco-gp-win.7nRN8RPrGX61wMNi127979.html'">
+                    <span class="race-name">Monaco GP</span>
+                </div>
+                <div class="item">
+                    <img class="race-box" src="img/min6.jpg" alt="Azerbaijan GP Image" onclick="location.href='https://www.formula1.com/en/latest/article.race-highlights-see-all-the-action-from-an-extraordinary-win-for-perez-in.5K1xNBxU6ug2ObZRwP43Ym.html'">
+                    <span class="race-name">Azerbaijan GP</span>    
+                </div>
+                <div class="item">
+                    <img class="race-box" src="img/min7.jpg" alt="French GP Image" onclick="location.href='https://www.formula1.com/en/latest/article.race-highlights-see-all-the-best-action-from-the-french-gp-as-verstappen.1OmjwtPmTl3W3NHJ5fraWU.html'">
+                    <span class="race-name">French GP</span>
+                </div>
+                <div class="item">
+                    <img class="race-box" src="img/min8.jpg" alt="Styrian GP Image" onclick="location.href='https://www.formula1.com/en/latest/article.race-highlights-watch-all-the-action-from-the-styrian-grand-prix-as.1fsKWwcAcJGN0tgiLzIUIL.html'">
+                    <span class="race-name">Styrian GP</span>
+                </div>
+                <div class="item">
+                    <img class="race-box" src="img/min9.jpg" alt="Austrian GP Image" onclick="location.href='https://www.formula1.com/en/latest/article.race-highlights-watch-all-the-action-as-verstappen-takes-third-victory-in-a.4Eqh6jB1vFmbYtjfmObezC.html'">
+                    <span class="race-name">Austrian GP</span>
+                </div>
+                <div class="item">
+                    <img class="race-box" src="img/min10.jpg" alt="British GP Image" onclick="location.href='https://www.formula1.com/en/latest/article.race-highlights-see-all-the-racing-action-from-a-dramatic-british-grand-prix.1KREeEBi4v2lAUi6l5iouv.html'">
+                    <span class="race-name">British GP</span>
+                </div>
+                <div class="item">
+                    <img class="race-box" src="img/min11.jpg" alt="Hungarian GP Image" onclick="location.href='https://www.formula1.com/en/latest/article.race-highlights-lap-1-crashes-a-red-flag-and-ocons-first-win-all-the-action.1JJnDUVrCdNPPzoyuBLKOF.html'">
+                    <span class="race-name">Hungarian GP</span>
+                </div>
+            </div>
+        </div>
+
+        <!--scripts-->
+        <script src="https://kit.fontawesome.com/00bcb3a799.js" crossorigin="anonymous"></script>
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.min.js"></script>
+        <script src="js/setup.js"></script>
+
     </body>
 </html>
