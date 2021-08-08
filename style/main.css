@@ -45,7 +45,7 @@ header nav a:hover {
 
 .main-race {
     font-size: 16px;
-    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('./img/hun21Lap1.jpg');
+    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('./../img/hun21Lap1.jpg');
 
     height: 450px;
     background-size: cover;
