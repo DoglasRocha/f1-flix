@@ -109,13 +109,22 @@ header nav a:hover {
 
 .item {
     cursor: pointer;
+    border: 1px #AAA;
 }
 
 .race-name {
     color: white;
-    margin-left: 10px;
 }
 
 .race-name:hover {
     color: #FFF;
+}
+
+.race-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
 }
